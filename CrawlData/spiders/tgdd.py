@@ -19,7 +19,7 @@ class TGDDs(scrapy.Spider):
     def start_requests(self):
         
         # Run for page
-        file_link = './output/output_link_{}.json'.format(self.para)
+        file_link = 'output_link.json'
         
         data = json.load(open(file_link))                                      # Đọc file, Chuyển json --> List để lấy url
 
