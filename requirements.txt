@@ -1,0 +1,6 @@
+scrapy==2.4.0
+cookies==2.2.1
+requests==2.24.0
+pyautogui==0.9.52
+schedule==0.6.0
+scrapy-user-agents==0.1.1
